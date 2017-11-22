@@ -18,3 +18,13 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return "Hello from about";
 });
+
+//belajar route parameter
+Route::get('/profile/{username?}', function ($username="unname") {
+    return "This is page for user ".$username;
+});
+
+Route::get('/profile/{username}/comment/{id}', function ($username, $id) {
+    return "Comment ID ".$id. " For User ".$username;
+});
+

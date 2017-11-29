@@ -1,0 +1,22 @@
+ul.navigation{
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.navigation li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navigation li a{
+    text-decoration: none;
+    background: lightcoral;
+    padding: 10;
+}
+ul.navigation li a:hover {
+    background:lightgreen;
+    color: white;
+}

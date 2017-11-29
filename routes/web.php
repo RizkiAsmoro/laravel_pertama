@@ -24,6 +24,7 @@ Route ::get ('/about', "UserController@about");
 
 Route ::get ('/contact', "UserController@contact");
 
+Route ::get ('/product/discount', "ProductController@discount");
 
 // Route::get('/about', function () {
 //     return "Hello from about";

@@ -31,6 +31,18 @@ Route ::get ('/products', "ProductController@index");
 Route ::get ('/products/add', "ProductController@add");
 Route ::post ('/products/add', "ProductController@add");
 
+
+Route ::post ('/products/add', "ProductController@add");
+Route ::post ('/products/add', "ProductController@add");
+Route ::post ('/products/add', "ProductController@edit");
+Route ::post ('products/delete', "ProductController@delete");
+
+Route ::get ('/media', "MediaController@index");
+Route ::get ('/media/upload', "MediaController@upload");
+Route ::post ('/media/upload', "MediaController@upload");
+
+
+
 // Route::get('/about', function () {
 //     return "Hello from about";
 // });
